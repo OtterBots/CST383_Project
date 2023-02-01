@@ -1,7 +1,7 @@
 # CST383_Project
-
-![Otterbots logo](/images/otterbots_logo.png)
-
+<p align="center">
+<img src="/images/otterbots_logo.png" />
+<p>
 ## Project Proposal
 
 We will use the datasets to examine the correlation between dog size (weight and height) to dog intelligence.  Intelligence for a dog is defined as the dog's obedience (the probability of the breed to obey on the first command) and the number of repetitions needed for learning new commands (lower is better).

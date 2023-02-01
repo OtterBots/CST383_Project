@@ -20,7 +20,7 @@ Dog’s have been bred for many different purposes, and although a dog breed may
 ????
 
 ## Dataset
-https://www.kaggle.com/datasets/thedevastator/canine-intelligence-and-size?select=AKC+Breed+Info.csv
+[Dog Intelligence and Size from Kaggle.com](https://www.kaggle.com/datasets/thedevastator/canine-intelligence-and-size?select=AKC+Breed+Info.csv)
 
 AKC Breed Info.csv
 This dataset has 5 data columns (Breed, height_low_inches, height_high_inches, weight_low_lbs, weight_high_lbs) that provides information about dog breeds size in height and weight.  There are a total of 149 rows, which is more than the other dataset.

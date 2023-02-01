@@ -18,7 +18,7 @@ Dog’s have been bred for many different purposes, and although a dog breed may
 
 ## Project Idea
 
-Determine if there is a relationship between a dog breed's physical attributes (weight and height) and see if there is a correlation between the breed's obedience and 'intelligence'.  Determine if there is a ratio of height and weight that is correlated to higher or lower obedience and 'intelligence'.  Aso, possibly determine how dog groups (herding, working, toy, etc) are affected by these four properties.
+Determine if there is a relationship between a dog breed's physical attributes (weight and height) and see if there is a correlation between the dog breed's obedience and 'intelligence'.  Also, determine if there is a ratio of height and weight that is correlated to higher or lower obedience and 'intelligence'.  Aso, possibly determine how dog groups (herding, working, toy, etc) are affected by these four properties.
 
 ## Dataset
 [Dog Intelligence and Size from Kaggle.com](https://www.kaggle.com/datasets/thedevastator/canine-intelligence-and-size?select=AKC+Breed+Info.csv)

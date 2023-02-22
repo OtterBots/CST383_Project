@@ -2,34 +2,66 @@
 <p align="center">
 <img src="/images/otterbots_logo.png" />
 <p>
+
+
+
+CST383: Introduction to Data Science
+
+Professor Ergezer
+
+Kevin Mcnulty, Nadia Rahbany, Juli Shinozuka, Andrew Shiraki
+
+02/25/2023
   
-## Project Proposal
+## Introduction
+Have you ever wondered if there are attributes that can help predict intelligence in a companion dog? What we hope to discover is whether attributes like height, weight, demeanor, and energy level can indicate a dog's intelligence level. Intelligence (or obedience) is the likelihood that a dog will obey commands and require fewer repititions to learn new commands. The intelligence scoring does not take into account that some dogs are bred for tasks that does not require 'obedience' to humans and rely more on independent thinking to do their purpose.<br><br>
+Our goal is to answer the question: Can a dog's attributes predict their intelligence?<br>
 
-We will use the datasets to examine the correlation between dog size (weight and height) to dog intelligence.  Intelligence for a dog is defined as the dog's obedience (the probability of the breed to obey on the first command) and the number of repetitions needed for learning new commands (lower is better).
+## Selection of Data
+Source of the CSV files:
 
-Dog’s have been bred for many different purposes, and although a dog breed may not be considered ‘intelligent’ in this context, that does not make them less smarter than those that score well here.  Some dog breeds were bred to not require obeying a human and relied more on independent thinking to do their purpose.
+*   [Kaggle - Canine Intelligence and Size](https://www.kaggle.com/datasets/thedevastator/canine-intelligence-and-size?select=AKC+Breed+Info.csv) on Jan 31, 2023 (6pm)
+*   [Github - akcdata by tmfilho](https://github.com/tmfilho/akcdata) on Feb 4, 2023 (5pm)
 
-## Team
+Some errors were found in the dataset and were replaced with correct data from the AKC website.
+*   [AKC website link](https://www.akc.org) where corrected data came from. (Feb 14, 2023)
 
-1) nrahbany@csumb.edu
-2) ashiraki@csumb.edu
-3) jshinozuka@csumb.edu
-4) kemcnulty@csumb.edu
+The combined dataset (dd) is as below:
+*   'Breed' - Name of AKC dog breed. (string)
+*   'height_low_inches' - The lower range of dog's height. (float)
+*   'height_high_inches' - The upper range of a dog's height. (float)
+*   'weight_low_lbs' - The lower range of dog's weight. (float)
+*   'weight_high_lbs' - The upper range of dog's weight. (float)
+*   'Classification' - The size calculation of the dog according to AKC. (string)
+*   'obey' - The probability that the breed obeys the first command. (float)
+*   'reps_lower' - The lower limit of repetitions to understand a new command. (int)
+*   'reps_upper' - The upper limit of repetitions to understand a new command. (int)
+*   'group' - The AKC group the breed is in. (string)
+*   'energy_level_value' - A number representing the breed's energy level. (float)
+*   'demeanor_value' - A number representing the breed's reaction to strangers and other pets. (float)
+*   'weight_avg' - The average of lower and upper range of dog's weight.
+*   'height_avg' - The average of lower and upper range of dog's height.
+*   'reps_avg' - The average of lower and upper range of dog's repetitions to understand a new command.  (float)
+*   'height_to_weight' - The height_avg / weight_avg.  (float)
 
-## Project Idea
+**NOTE**: 'Classification', 'obey' and all the 'reps' columns show the same information in different ways.  One should only be used as the target and not also a feature.
 
-Determine if there is a relationship between a dog breed's physical attributes (weight and height) and see if there is a correlation between the dog breed's obedience and 'intelligence'.  Also, determine if there is a ratio of height and weight that is correlated to higher or lower obedience and 'intelligence'.  If we can include dog AKC groups into the dataset, possibly determine how dog groups (herding, working, toy, etc) are affected by these four properties.
+## Methods
 
-## Dataset
-[Dog Intelligence and Size from Kaggle.com](https://www.kaggle.com/datasets/thedevastator/canine-intelligence-and-size?select=AKC+Breed+Info.csv)
+What materials/APIs/tools were used or who was included in answering the research question?
 
-AKC Breed Info.csv
-This dataset has 5 data columns (Breed, height_low_inches, height_high_inches, weight_low_lbs, weight_high_lbs) that provides information about dog breeds size in height and weight.  There are a total of 149 rows, which is more than the other dataset.
-149 rows
+## Results
 
-Dog_intelligence.csv
-This dataset has 5 data columns (Breed, Classification, obey, reps_lower, reps_upper) that need to be examined closer to see if they are all providing the information we need for this project.  There are a total of  135 rows, which is less breeds than the other dataset.
+What answer was found to the research question; what did the study find?  Was the tested hypothesis true?  Any visualization?
 
-There is the possibility of adding a column for AKC Group designation to also examine its correlation to dog’s obedience and intelligence.
+## Discussion
 
-These datasets can possibly be merged on dog breeds, after getting a better understanding of the datasets, to use for the project.  The website linked above has some analysis of the datasets that need to be explored.
+What might the answer imply and why does it matter?  How does it fit with what other researchers have found?  What are the perspectives for future research?  Survey about the tools investigated for this assignment.
+
+## Summary
+
+Most important findings.
+
+## Refereces????????
+
+

@@ -78,6 +78,6 @@ The study’s findings suggest that a dog’s attributes can have an impact on t
 
 Most important findings.
 
-## Refereces????????
+
 
 

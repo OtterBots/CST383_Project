@@ -73,11 +73,15 @@ The study aimed to determine if a dog’s attributes can predict their intellige
 <img src="/images/heatmap_weight_breed.png" />
 <p>
 <hr> 
-kNN Regression Model
+<h1>kNN Regression Model</h1>
 <p align="left">
 <img src="/images/rmse.png" />
 <p>
-
+<hr>
+<h1>Linear Regression Model</h1>
+<p align="left">
+<img src="/images/linear_reg.png" />
+<p>
 ## Discussion
 
 The study’s findings suggest that a dog’s attributes can have an impact on their intelligence, but it is not the only factor. Other factors, such as training and environment, may also have an impact on a dog’s intelligence. These findings also align with previous research that has found a relationship between a dog’s breed and intelligence. Future research could investigate specific environmental and training factors that affect a dog’s intelligence.

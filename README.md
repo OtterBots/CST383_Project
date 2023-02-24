@@ -84,6 +84,7 @@ Predictors:
 - `demeanor_value`
 - `height_avg`
 - `weight_avg`
+
 The highes accuracy achieved by the kNN classifier model was 48% with an n value of 5. 
 
 # kNN Regression Model
@@ -100,6 +101,7 @@ Predictors:
 - `demeanor_value`
 - `height_avg`
 - `weight_avg`
+
 The data set placed numerical value on each `Classification` which allows use of the kNN regression model. The kNN Regression model, simliarly to the classifier model, performed the best at $n=5$ with an RMSE value of 19.67, which is worse than the baseline RMSE value of 19.04
 
 # Linear Regression Model
@@ -115,6 +117,7 @@ Features:
 - `demeanor_value`
 - `height_avg`
 - `weight_avg`
+
 Linear regression model performed worse than kNN regression model. As many of the datapoints in this dataset are vertically stacked, the linear regression model is not well suited for this application.
 
 <h1>Decision Tree Classifier</h1>
@@ -129,6 +132,7 @@ Predictors:
 - `demeanor_value`
 - `height_avg`
 - `weight_avg`
+
 The Decision Tree Classifier model performed the best at a  tree depth of 2 with an accuracy of about 30% Accuracy. 
 Suspect that this is due to simply limiting the number of buckets which the classifier can sort datapoints into. 
 

@@ -79,6 +79,7 @@ The study aimed to determine if a dog’s attributes can predict their intellige
 
 Target: 
 - `Classification`
+
 Predictors:
 - `energy_level_value`
 - `demeanor_value`
@@ -112,6 +113,7 @@ The data set placed numerical value on each `Classification` which allows use of
 
 Target: 
 - `obey`
+
 Features:
 - `energy_level_value`
 - `demeanor_value`
@@ -127,6 +129,7 @@ Linear regression model performed worse than kNN regression model. As many of th
 
 Target: 
 - `Classification`
+
 Predictors:
 - `energy_level_value`
 - `demeanor_value`

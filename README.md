@@ -68,9 +68,10 @@ Methods used with Scikit and SciPy:
 *   Other: StandardScaler, zscore, confusion_matrix
 
 ## Results
-The study aimed to determine if a dog’s attributes can predict their intelligence. The results showed that there is a correlation between a dog's intelligence and their weight and breed. However, the study also found that the correlation is not strong enough to predict a dog’s intelligence accurately. Therefore, the tested hypothesis was partially true since there is a correlation between a dog’s attributes and intelligence, but it is not strong enough to accurately predict their intelligence. 
+The study aimed to determine if a dog’s attributes can predict their intelligence. The results showed that there is a correlation between a dog's intelligence and their weight and breed. However, the study also found that the correlation is not strong enough to predict a dog’s intelligence accurately. Therefore, the tested hypothesis was partially true since there is a correlation between a dog’s attributes and intelligence, but it is not strong enough to accurately predict their intelligence.
+<h1>kNN Classification Model</h1>
 <p align="left">
-<img src="/images/heatmap_weight_breed.png" />
+<img src="images/classification.png" />
 <p>
 <hr> 
 <h1>kNN Regression Model</h1>

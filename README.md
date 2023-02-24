@@ -73,6 +73,7 @@ The study aimed to determine if a dog’s attributes can predict their intellige
 <img src="/images/heatmap_weight_breed.png" />
 <p>
 <hr> 
+kNN Regression Model
 <p align="left">
 <img src="/images/rmse.png" />
 <p>

@@ -73,15 +73,17 @@ The study aimed to determine if a dog’s attributes can predict their intellige
 <p align="left">
 <img src="images/classification.png" />
 <p>
-<hr> 
 <h1>kNN Regression Model</h1>
 <p align="left">
 <img src="/images/rmse.png" />
 <p>
-<hr>
 <h1>Linear Regression Model</h1>
 <p align="left">
 <img src="/images/linear_reg.png" />
+<p>
+<h1>Decision Tree Classifier</h1>
+<p align="left">
+<img src="/images/decision_tree.png" />
 <p>
 ## Discussion
 

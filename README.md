@@ -68,17 +68,19 @@ Methods used with Scikit and SciPy:
 *   Other: StandardScaler, zscore, confusion_matrix
 
 ## Results
-
-What answer was found to the research question; what did the study find?  Was the tested hypothesis true?  Any visualization?
+The study aimed to determine if a dog’s attributes can predict their intelligence. The results showed that there is a correlation between a dog's intelligence and their weight and breed. However, the study also found that the correlation is not strong enough to predict a dog’s intelligence accurately. Therefore, the tested hypothesis was partially true since there is a correlation between a dog’s attributes and intelligence, but it is not strong enough to accurately predict their intelligence. 
+<p align="left">
+<img src="/images/heatmap_weight_breed.png" />
+<p>
 
 ## Discussion
 
-What might the answer imply and why does it matter?  How does it fit with what other researchers have found?  What are the perspectives for future research?  Survey about the tools investigated for this assignment.
+The study’s findings suggest that a dog’s attributes can have an impact on their intelligence, but it is not the only factor. Other factors, such as training and environment, may also have an impact on a dog’s intelligence. These findings also align with previous research that has found a relationship between a dog’s breed and intelligence. Future research could investigate specific environmental and training factors that affect a dog’s intelligence.
 
 ## Summary
 
-Most important findings.
+In this project, we aimed to investigate whether a dog’s attributes can predict their intelligence. Our results showed that certain attributes, such as breed and weight were correlated with intelligence but that it’s not strong enough to predict a dog’s intelligence. Our findings suggest that certain breeds may be more intelligent than others, and that weight may be a predictor of intelligence. These results have implications for dog breeders, trainers, and owners who may want to consider these attributes when selecting, training, or working with dogs. Overall, our study contributes to the growing body of research on a dog’s intelligence and provides insights into the factors that may contribute to individual differences in intelligence among dogs.
 
-## Refereces????????
+
 
 

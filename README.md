@@ -76,7 +76,7 @@ The study’s findings suggest that a dog’s attributes can have an impact on t
 
 ## Summary
 
-Most important findings.
+In this project, we aimed to investigate whether a dog’s attributes can predict their intelligence. Our results showed that certain attributes, such as breed and body weight were correlated with intelligence but that it’s not strong enough to predict a dog’s intelligence. Our findings suggest that certain breeds may be more intelligent than others, and that weight may be a predictor of intelligence. These results have implications for dog breeders, trainers, and owners who may want to consider these attributes when selecting, training, or working with dogs. Overall, our study contributes to the growing body of research on a dog’s intelligence and provides insights into the factors that may contribute to individual differences in intelligence among dogs.
 
 
 

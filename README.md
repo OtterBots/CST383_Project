@@ -72,8 +72,9 @@ The study aimed to determine if a dog’s attributes can predict their intellige
 <p align="left">
 <img src="/images/heatmap_weight_breed.png" />
 <p>
+<hr> 
 <p align="left">
-<img src="/rmse.png" />
+<img src="/images/rmse.png" />
 <p>
 
 ## Discussion

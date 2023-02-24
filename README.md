@@ -1,4 +1,4 @@
-# CST383_Project
+# CST383_Project: Can a dog's attributes predict their intelligence?
 <p align="center">
 <img src="/images/otterbots_logo.png" />
 </p>
@@ -12,8 +12,6 @@ Professor Ergezer
 Kevin Mcnulty, Nadia Rahbany, Juli Shinozuka, Andrew Shiraki
 
 02/25/2023
-
-# Can a dog's attributes predict their intelligence?
   
 ## Introduction
 
@@ -72,10 +70,10 @@ Methods used with Scikit and SciPy:
 
 The study aimed to determine if a dog’s attributes can predict their intelligence. The results showed that there is a correlation between a dog's intelligence and their weight and breed. However, the study also found that the correlation is not strong enough to predict a dog’s intelligence accurately. Therefore, the tested hypothesis was partially true since there is a correlation between a dog’s attributes and intelligence, but it is not strong enough to accurately predict their intelligence.
 
-<h1>kNN Classification Model</h1>
-<p align="left">
-<img src="images/classification.png" />
-</p>
+## kNN Classification Model
+
+![classificiation](images/classification.png)
+
 
 Target: 
 - `Classification`
@@ -88,11 +86,11 @@ Predictors:
 
 The highes accuracy achieved by the kNN classifier model was 48% with an n value of 5. 
 
-# kNN Regression Model
+## kNN Regression Model
 
-<p align="left">
-<img src="/images/rmse.png" />
-</p>
+
+![knnRegression](/images/rmse.png)
+
 
 Target: 
 - `obey`
@@ -105,11 +103,10 @@ Predictors:
 
 The data set placed numerical value on each `Classification` which allows use of the kNN regression model. The kNN Regression model, simliarly to the classifier model, performed the best at $n=5$ with an RMSE value of 19.67, which is worse than the baseline RMSE value of 19.04
 
-# Linear Regression Model
+## Linear Regression Model
 
-<p align="left">
-<img src="/images/linear_reg.png" />
-</p>
+
+![linearReg](/images/linear_reg.png)
 
 Target: 
 - `obey`
@@ -122,10 +119,9 @@ Features:
 
 Linear regression model performed worse than kNN regression model. As many of the datapoints in this dataset are vertically stacked, the linear regression model is not well suited for this application.
 
-<h1>Decision Tree Classifier</h1>
-<p align="left">
-<img src="/images/decision_tree.png" />
-</p>
+## Decision Tree Classifier
+
+![dt](/images/decision_tree.png)
 
 Target: 
 - `Classification`

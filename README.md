@@ -59,7 +59,7 @@ The merged dataset (dd) features:
 
 Tools:
 *   Numpy, Pandas, Matplotlib, Seaborn, and GraphViz for data analysis and visualization
-*   Scikit-learn for ....?
+*   Scikit-learn for building several machine learning models 
 *   Anaconda's Jupyter Notebook and Sypder for individual work
 *   Google Collab for group collaboration on project code
  

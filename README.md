@@ -136,7 +136,8 @@ Suspect that this is due to simply limiting the number of buckets which the clas
 
 ## Discussion
 
-The study’s findings suggest that a dog’s attributes can have an impact on their intelligence, but it is not the only factor. Other factors, such as training and environment, may also have an impact on a dog’s intelligence. These findings also align with previous research that has found a relationship between a dog’s breed and intelligence. Future research could investigate specific environmental and training factors that affect a dog’s intelligence.
+The findings of this project suggest that the attributes of a dog are not strongly correlated with its intelligence, at least not in a way that can be accurately predicted with the small dataset used. These results highlight the importance of larger and more diverse datasets for machine learning models to be effective.
+In this case, the small size and limited scope of the dataset likely limited the effectiveness of the models used and because of that it is difficult to draw any firm conclusions about the relationship between dog attributes and intelligence, and further research is needed to explore this topic in more depth. Moving forward, it will be important for researchers to carefully consider the quality and size of their datasets when choosing machine learning tools and techniques for analyzing data.
 
 ## Summary
 

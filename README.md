@@ -66,9 +66,6 @@ Methods used with Scikit and SciPy:
 -   Models: kNeighborClassfier, KNeighborsRegressor, LinearRegression, PolynomialFeatures, DecisionTreeClassifier
 -   Other: StandardScaler, zscore, confusion_matrix
 
-## Results
-
-
 ## kNN Classification Model
 
 ![classificiation](images/classification.png)
@@ -149,4 +146,32 @@ Despite the lack of a significant correlation, the project was still an interest
 
 
 
+```
+ ____________
+< Thank You! >
+ ------------
+   \
+    \
+               |    .
+           .   |L  /|
+       _ . |\ _| \--+._/| .
+      / ||\| Y J  )   / |/| ./
+     J  |)'( |        ` F`.'/
+   -<|  F         __     .-<
+     | /       .-'. `.  /-. L___
+     J \      <    \  | | O\|.-'
+   _J \  .-    \/ O | | \  |F
+  '-F  -<_.     \   .-'  `-' L__
+ __J  _   _.     >-'  )._.   |-'
+ `-|.'   /_.           \_|   F
+   /.-   .                _.<
+  /'    /.'             .'  `\
+   /L  /'   |/      _.-'-\
+  /'J       ___.---'\|
+    |\  .--' V  | `. `
+    |/`. `-.     `._)
+       / .-.\
+       \ (  `\
+        `.\
 
+```

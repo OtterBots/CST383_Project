@@ -68,7 +68,6 @@ Methods used with Scikit and SciPy:
 
 ## Results
 
-The study aimed to determine if a dog’s attributes can predict their intelligence. The results showed that there is a correlation between a dog's intelligence and their weight and breed. However, the study also found that the correlation is not strong enough to predict a dog’s intelligence accurately. Therefore, the tested hypothesis was partially true since there is a correlation between a dog’s attributes and intelligence, but it is not strong enough to accurately predict their intelligence.
 
 ## kNN Classification Model
 
@@ -141,7 +140,11 @@ The study’s findings suggest that a dog’s attributes can have an impact on t
 
 ## Summary
 
-In this project, we aimed to investigate whether a dog’s attributes can predict their intelligence. Our results showed that certain attributes, such as breed and weight were correlated with intelligence but that it’s not strong enough to predict a dog’s intelligence. Our findings suggest that certain breeds may be more intelligent than others, and that weight may be a predictor of intelligence. These results have implications for dog breeders, trainers, and owners who may want to consider these attributes when selecting, training, or working with dogs. Overall, our study contributes to the growing body of research on a dog’s intelligence and provides insights into the factors that may contribute to individual differences in intelligence among dogs.
+This project aimed to investigate whether various attributes of a dog could be used to predict its level of intelligence. The project used a dataset consisting of 113 out of over 200 dog breeds in the AKC and 15 features, including height, weight, energy level, and demeanor. The data was cleaned and processed to correct errors and inconsistencies, and the resulting dataset was used to train and test several machine learning models.
+
+To explore the data further, we applied several machine learning models, including k-Nearest Neighbors, Linear Regression, Polynomial Regression, and Decision Trees. However, the models did not produce satisfactory results, indicating that the dataset may not be large enough, and the features may not be sufficient to predict a dog's intelligence accurately.
+
+Despite the lack of a significant correlation, the project was still an interesting exploration of the data. The project highlights the importance of having clean and consistent data when working with machine learning models. The project could be expanded in the future by incorporating additional data sources, such as data on mixed breed dogs, and specific enviornmental and training factors. 
 
 
 
